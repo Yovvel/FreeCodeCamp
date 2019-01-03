@@ -1,28 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=MedievalSharp');
 body {
-	background: linear-gradient(2.5turn, #3f87a6, #ebf8e1, #f69d3c);
+	background: black;
+	color: white;
+	font-family: 'MedievalSharp', cursive;
+}
+#tribute{
+	padding-right: 300px;
+}
+#series{
+	padding-left: 300px;
 }
 
-
-.title-box {
-	background-color: white;
-	box-shadow: 5px 10px;
-	padding: 10px;
-	margin: 25px;
-	width: 500px;
-	box-shadow: 0px 0px 80px black;
-
+.title-box{
+	padding: 75px;
 }
-
-.box {
-	background-color: white;
-	box-shadow: 5px 10px;
-	padding: 10px;
-	margin: 25px;
-	box-shadow: 0px 0px 50px black;
+.text-centered{
+	text-align: center;
 }
-
-.text-centered {
-		text-align: center;
-		font-family: 'MedievalSharp', cursive;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
 }
