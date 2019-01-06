@@ -10,9 +10,23 @@ body {
 #series{
 	padding-left: 300px;
 }
-
+#image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+}
+#img-div{
+}
+#img-caption{
+	text-align: center;
+	font-size: 12px;
+}
 .title-box{
 	padding: 75px;
+}
+.box{
+	padding: 100px;
 }
 .text-centered{
 	text-align: center;
