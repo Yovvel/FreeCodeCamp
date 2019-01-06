@@ -1,39 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=MedievalSharp');
+/*@import url('https://fonts.googleapis.com/css?family=MedievalSharp');*/
 body {
-	background: black;
-	color: white;
-	font-family: 'MedievalSharp', cursive;
+	background-color: #355664;
+	color: #fcfcfc;
 }
-#tribute{
-	padding-right: 300px;
-}
-#series{
-	padding-left: 300px;
-}
-#image{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 15%;
-}
-#img-div{
-}
-#img-caption{
-	text-align: center;
-	font-size: 12px;
-}
-.title-box{
-	padding: 75px;
-}
+
 .box{
-	padding: 100px;
+	background-color: #213E4A;
+	margin: 2pc;
+	padding: 2pc;
+	/*border-radius: 10px;*/
 }
-.text-centered{
-	text-align: center;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 15%;
+
+a {
+	color: #4286f4;
 }
