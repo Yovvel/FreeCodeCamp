@@ -1,14 +1,20 @@
-/*@import url('https://fonts.googleapis.com/css?family=MedievalSharp');*/
 body {
 	background-color: #355664;
 	color: #fcfcfc;
+	font-family: "Courier New";
 }
 
 .box{
 	background-color: #213E4A;
+	box-shadow: 0px 0px 25px 3px rgba(0,0,0,0.5);
 	margin: 2pc;
 	padding: 2pc;
-	/*border-radius: 10px;*/
+	text-align: center;
+	max-width: 1500px;
+}
+
+ul{
+	text-align: justify;
 }
 
 a {
