@@ -14,6 +14,13 @@ body {
 	max-width: 1500px;
 }
 
+.flex-box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
 img {
   max-width: 100%;
   height: auto;
