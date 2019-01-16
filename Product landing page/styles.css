@@ -3,3 +3,21 @@
   top: 0;
   width: 100%;
 }
+
+#home{
+  color: white;
+  background:url("https://images.unsplash.com/photo-1508253730651-e5ace80a7025?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9");
+  background-size:cover;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  height:50vw;
+  width: 100vw;
+  margin-top: 50px;
+}
+body{
+  font-family: 'Courgette', cursive;
+  background-color: red;
+}
+#navbar-brand{
+  font-family: 'Pacifico', cursive;
+}
