@@ -32,3 +32,20 @@ h1{
 	display:flex;
 	justify-content: space-evenly;
 }
+
+.item{
+	text-align: center;
+}
+
+.button {
+  background-color: #555555; /* Black */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
