@@ -11,13 +11,23 @@
   background-attachment: fixed;
   background-repeat:no-repeat;
   height:50vw;
-  width: 100vw;
+  width: 99vw;
   margin-top: 50px;
+  margin-left:-1vw;
+  margin-right:-1vw;
+}
+
+h1{
+	font-size: 100px;
+	color:red;
+}
+.center-container{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	margin: -2vw;
 }
 body{
   font-family: 'Courgette', cursive;
-  background-color: red;
-}
-#navbar-brand{
-  font-family: 'Pacifico', cursive;
 }
