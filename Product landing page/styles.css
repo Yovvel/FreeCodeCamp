@@ -16,7 +16,6 @@
   margin-left:-1vw;
   margin-right:-1vw;
 }
-
 h1{
 	font-size: 100px;
 	color:red;
@@ -28,6 +27,8 @@ h1{
 	transform: translateX(-50%) translateY(-50%);
 	margin: -2vw;
 }
-body{
-  font-family: 'Courgette', cursive;
+
+.container{
+	display:flex;
+	justify-content: space-evenly;
 }
