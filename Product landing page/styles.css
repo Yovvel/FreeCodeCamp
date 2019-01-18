@@ -49,3 +49,8 @@ h1{
   margin: 4px 2px;
   cursor: pointer;
 }
+.whiskeyPhoto{
+  width: 150px;
+  height: 150px;
+  object-fit: scale-down;
+}
