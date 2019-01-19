@@ -16,10 +16,12 @@
   margin-left:-2vw;
   margin-right:-2vw;
   object-fit: scale-down;
+  /*font-family: 'Sancreek', cursive;*/
 }
-h1{
-	font-size: 100px;
-	color:red;
+.homeTitle{
+	font-size: 10vw;
+  font-family: 'Sancreek', cursive;
+	color:white;
 }
 
 .parent{
@@ -36,7 +38,9 @@ h1{
   justify-content: center;
   align-items: center;
 }
-
+#cart{
+  padding-top: 50px;
+}
 .container{
 	display:flex;
 	justify-content: space-evenly;
