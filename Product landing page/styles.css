@@ -41,6 +41,10 @@
 #cart{
   padding-top: 50px;
 }
+
+#blog{
+  background-color: green;
+}
 .container{
 	display:flex;
 	justify-content: space-evenly;
