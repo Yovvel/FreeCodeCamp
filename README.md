@@ -12,9 +12,7 @@ Here you can find the [source code](https://github.com/Yovvel/FreeCodeCamp/tree/
 
 These are the 5 projects:
   * Build a Tribute Page
-     CodePen link: [Tribute to Python](https://codepen.io/Yovvel/full/BvVXLV)
   * Build a Survey Form
-     CodePen link: [Survey form](https://codepen.io/Yovvel/full/OrawJr)
   * Build a Product Landing Page
   
   Comming soon:
