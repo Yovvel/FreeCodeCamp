@@ -4,10 +4,12 @@ To show what i have learned from the lessons on FreeCodeCamp, the course gave me
 In here you can find the source code and a link to codepen or each solution to see the project live.
 
 These are the 5 projects:
-  *Build a Tribute Page
-    Codepen link: [Tribute to Python](https://codepen.io/Yovvel/pen/BvVXLV)
+  * Build a Tribute Page
+    CodePen link: [Tribute to Python](https://codepen.io/Yovvel/full/BvVXLV)
   * Build a Survey Form
+    CodePen link: [Survey form](https://codepen.io/Yovvel/full/OrawJr)
   * Build a Product Landing Page
+  Comming up:
   * Build a Technical Documentation Page
   * Build a Personal Portfolio Webpage
   
