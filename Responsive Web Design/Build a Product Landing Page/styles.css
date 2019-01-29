@@ -20,7 +20,7 @@
 }
 .homeTitle{
 	font-size: 10vw;
-  font-family: 'Sancreek', cursive;
+  font-family: 'Miltonian Tattoo', cursive;
 	color:white;
 }
 
@@ -44,15 +44,18 @@
 
 #blog{
   background-color: #CC8E69; /*whiskey brown*/
+  font-family: 'Miltonian Tattoo', cursive;
+  text-align: center;
+  font-size: 3em;
 }
 .container{
 	display:flex;
 	justify-content: space-evenly;
 }
 
-.item{
+/*.item{
 	text-align: center;
-}
+}*/
 
 .button {
   background-color: #555555; /* Black */
@@ -71,6 +74,12 @@
   height: 250px;
   object-fit: scale-down;
 }
+/*#video-intro {
+  font-family: 'Miltonian Tattoo', cursive;
+  text-align: center;
+  padding: 2em;
+  font-size: 3em;
+}*/
 
 #video {
   margin-top: 60px;
@@ -78,5 +87,7 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 100vw;
+  margin-top: 60px;
   margin-bottom: 30px;
+  padding-bottom: 60px;
 }
