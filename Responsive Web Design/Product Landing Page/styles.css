@@ -46,7 +46,13 @@
   background-color: #CC8E69; /*whiskey brown*/
   font-family: 'Miltonian Tattoo', cursive;
   text-align: center;
-  font-size: 3em;
+}
+#blog h2{
+  font-size: 75px;
+}
+
+#blog p{
+  font-size: 25px;
 }
 .container{
 	display:flex;
