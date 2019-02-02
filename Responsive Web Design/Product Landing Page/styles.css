@@ -16,7 +16,6 @@
   margin-left:-2vw;
   margin-right:-2vw;
   object-fit: scale-down;
-  /*font-family: 'Sancreek', cursive;*/
 }
 .homeTitle{
 	font-size: 10vw;
@@ -59,10 +58,6 @@
 	justify-content: space-evenly;
 }
 
-/*.item{
-	text-align: center;
-}*/
-
 .button {
   background-color: #555555; /* Black */
   border: none;
@@ -80,12 +75,6 @@
   height: 250px;
   object-fit: scale-down;
 }
-/*#video-intro {
-  font-family: 'Miltonian Tattoo', cursive;
-  text-align: center;
-  padding: 2em;
-  font-size: 3em;
-}*/
 
 #video {
   margin-top: 60px;
