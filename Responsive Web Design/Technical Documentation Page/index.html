@@ -18,7 +18,7 @@
         <a class="nav-link" href="#NewDrawings" rel="internal"><li>New drawings</li></a>
         <a class="nav-link" href="#OwnDrawingTemp" rel="internal"><li>Create Your Own Drawing Template File </li></a>
         <a class="nav-link" href="#Units" rel="internal"><li>Units</li></a>
-        <a class="nav-link" href="#Introduction" rel="internal"><li></li></a>
+        <a class="nav-link" href="#UnitDisplaySettings" rel="internal"><li>Unit Display Settings</li></a>
         <a class="nav-link" href="#Introduction" rel="internal"><li></li></a>
         <a class="nav-link" href="#Introduction" rel="internal"><li></li></a>
         <a class="nav-link" href="#Introduction" rel="internal"><li></li></a>
@@ -99,13 +99,21 @@
           <header>Units</header>
           <article>
             <p>After you start a new drawing, you'll first decide what the length of one unit represents—an inch, a foot, a centimeter, a kilometer, or some other unit of length. For example, the objects below could represent two buildings that are each 125 feet long, or they could represent a section from a mechanical part that is measured in millimeters. </p>
+            <img src="https://help.autodesk.com/cloudhelp/2019/ENU/AutoCAD-Core/images/GUID-A8707F52-007C-4DB3-BF88-7EA0530C8787.png" alt="">
+
           </article>
         </section>
 
-      <section class="main-section" id="">
-          <header></header>
+      <section class="main-section" id="UnitDisplaySettings">
+          <header>Unit Display Settings</header>
           <article>
-  
+            <p>After you decide what unit of length that you want to use, the UNITS command lets you control several unit display settings including the following:</p>
+            <ul>
+              <li>Format (or Type). For example, a decimal length of 6.5 can be set to display as a fractional length of 6-1/2 instead. </li>
+              <li>Precision. For example, a decimal length of 6.5 can be set to display as 6.50, 6.500, or 6.5000. </li>
+            </ul>
+            <p>If you plan to work in feet and inches, use the UNITS command to set the unit type to Architectural, and then when you create objects, specify their lengths in inches. If you plan to use metric units, leave the unit type set to Decimal. Changing the unit format and precision does not affect the internal precision of your drawing. It affects only how lengths, angles, and coordinates are displayed in the user interface.</p>
+            <p>Tip: If you change a setting for the unit display or any other setting, you can save the settings in a drawing template file. Otherwise, you'll need to change the settings for each new drawing. </p>
           </article>
         </section>
 
