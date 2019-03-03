@@ -54,3 +54,7 @@ header{
 hr{
     margin-left: -48px;
 }
+
+code{
+    visibility: hidden;
+}
