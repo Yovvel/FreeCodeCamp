@@ -34,5 +34,5 @@ These are the 5 projects:
 ### Build a Technical Documentation Page
   The goal was to build a Technical Documentation page that is functionally similar to this [codepen](https://codepen.io/freeCodeCamp/full/NdrKKL).
   Altough the purpose was to write a page about HTML,CSS or JavaScript, but i choose to write a page about AutoCad, because i use Autocad in my current job.
-  By taking this road, i had to do one trick to pass all the user stories, beacause i didn't had any use for the /"<code>" part. I solved this to place 5 /"<code>" parts in the html and used CSS to hide those. This way the script will pass the user story, but the user will not see them.
+  By taking this road, i had to do one trick to pass all the user stories, beacause i didn't had any use for the "/<code>" part. I solved this to place 5 "/<code>" parts in the html and used CSS to hide those. This way the script will pass the user story, but the user will not see them.
   The code i wrote, you can find [here](/Responsive Web Design/Technical Documentation Page/) and the live version you can find on [codepen - Autocad Documentation Page](https://codepen.io/Yovvel/pen/NJNQed).
