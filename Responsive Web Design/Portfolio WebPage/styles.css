@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+/*Navigation bar*/
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #feffdb;
+}
+#navbar a {
+    float: right;
+    display: block;
+    color: #444444;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: #ffc60b;
+}
+/*main section*/
+#welcome-section{
+    margin-top: 35px;
+    padding-top: 20px;
+    background-color: #feffdb;
+    color: #444444;
+}
