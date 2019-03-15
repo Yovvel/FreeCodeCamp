@@ -12,6 +12,10 @@ body{
     width: 100%;
     background-color: #feffdb;
 }
+
+#navbar:hover{
+    background-color: #ffc60b;
+}
 #navbar a {
     float: right;
     display: block;
@@ -22,7 +26,7 @@ body{
 }
 
 #navbar a:hover {
-    color: #ffc60b;
+    color: #ff8b00;
 }
 /*main section*/
 #welcome-section{
