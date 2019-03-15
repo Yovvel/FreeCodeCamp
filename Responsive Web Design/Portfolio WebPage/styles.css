@@ -6,6 +6,7 @@ body{
 
 /*Navigation bar*/
 #navbar {
+    z-index: 2;
     position: fixed;
     top: 0;
     width: 100%;
@@ -25,14 +26,20 @@ body{
 }
 /*main section*/
 #welcome-section{
-    margin-top: 35px;
-    padding-top: 20px;
+    position: relative;
+    z-index: 1;
+    /*needs an z-index for the navbar?*/
+   /* margin-top: 35px;
+    padding-top: 20px;*/
+    text-align: center;
+    height: 100%;
     background-color: #feffdb;
     color: #444444;
 }
-.welcome-section{
-	display: grid;
-}
-.block{
-	display:
+
+#welcome-inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
