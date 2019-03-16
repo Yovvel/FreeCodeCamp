@@ -1,3 +1,5 @@
+
+/*https://colorhunt.co/palette/137927*/
 body{
     font-family: 'Open Sans', sans-serif;
     margin:0;
@@ -28,13 +30,11 @@ body{
 #navbar a:hover {
     color: #ff8b00;
 }
+
 /*main section*/
 #welcome-section{
     position: relative;
     z-index: 1;
-    /*needs an z-index for the navbar?*/
-   /* margin-top: 35px;
-    padding-top: 20px;*/
     text-align: center;
     height: 100%;
     background-color: #feffdb;
@@ -46,4 +46,17 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+/*about section*/
+#about-section{
+    background-color: #ffc60b;
+    margin-top: -20px;
+    display: grid;
+    grid-template-columns:10% 1fr 1fr 10%;
+    grid-template-rows: 10% 1fr 10%;
+}
+#about-inner-text{
+    padding-top:25%;
+    grid-column: 3;
 }
