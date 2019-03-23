@@ -28,7 +28,8 @@ body{
 }
 
 #navbar a:hover {
-    color: #ff8b00;
+    color: #00adb5;
+    background-color: #222831;
 }
 
 /*main section*/
@@ -37,6 +38,7 @@ body{
     background-image: url(http://yovvel.nl/Image/code-627045246.jpg);
     background-size: cover;
     background-attachment: fixed;
+
     position: relative;
     z-index: 1;
     text-align: center;
