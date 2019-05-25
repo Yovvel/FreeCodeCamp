@@ -17,6 +17,14 @@ $(document).ready(function(){
       });
     } // End if
   });
+  function myFunction() {
+  var x = document.getElementById("navbar");
+  if (x.className === "myNavbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "myNavbar";
+  }
+}
 });
 
 //alert("yes it is working");
