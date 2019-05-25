@@ -56,9 +56,10 @@ body{
 /*main section*/
 
 #welcome-section{
-    background-image: url(http://yovvel.nl/Image/code-627045246.jpg);
+    /*background-image: url(http://yovvel.nl/Image/code-627045246.jpg);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
+    background-color: #68768e;
 
     position: relative;
     z-index: 1;
@@ -103,6 +104,8 @@ body{
 
 #avatar{
 	border-radius: 50%;
+  width: 25em;
+  height: 25em;
 }
 
 /*Projects section*/
