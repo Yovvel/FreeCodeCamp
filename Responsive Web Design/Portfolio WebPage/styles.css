@@ -5,7 +5,7 @@ body{
 }
 
 /*Navigation bar*/
-#navbar {
+.myNavbar {
     z-index: 2;
     position: fixed;
     top: 0;
@@ -13,10 +13,10 @@ body{
     background-color: #22283104;
 }
 
-#navbar:hover{
+.myNavbar:hover{
     background-color: #222831be;
 }
-#navbar a {
+.myNavbar a {
     float: right;
     display: block;
     color: #fff;
@@ -26,26 +26,26 @@ body{
     text-decoration: none;
 }
 
-#navbar a.icon {display:none;}
+.myNavbar a.icon {display:none;}
 
-#navbar a:hover {
+.myNavbar a:hover {
     color: #00adb5;
     background-color: #222831;
 }
 @media only screen and (max-width: 600px) {
-  #navbar a {display: none;}
-  #navbar a.icon {
+  .myNavbar a {display: none;}
+  .myNavbar a.icon {
     float: right;
     display: block;
   }
 
-  #navbar .responsive {position: relative;}
-  #navbar .responsive a.icon {
+  .myNavbar .responsive {position: relative;}
+  .myNavbar.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  #navbar .responsive a {
+  .myNavbar.responsive a {
     float: none;
     display: block;
     text-align: left;

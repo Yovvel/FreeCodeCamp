@@ -17,14 +17,18 @@ $(document).ready(function(){
       });
     } // End if
   });
-  function myFunction() {
+
+
+});
+
+function myFunction() {
+  //alert("yes it is working");
   var x = document.getElementById("navbar");
   if (x.className === "myNavbar") {
     x.className += " responsive";
+    console.log(x);
   } else {
     x.className = "myNavbar";
+    console.log(x);
   }
 }
-});
-
-//alert("yes it is working");
