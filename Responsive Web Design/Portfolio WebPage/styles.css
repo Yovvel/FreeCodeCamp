@@ -36,10 +36,9 @@ body{
 /*main section*/
 
 #welcome-section{
-    /*background-image: url(http://yovvel.nl/Image/code-627045246.jpg);
+    background-image: url(http://yovvel.nl/Image/code-627045246.jpg);
     background-size: cover;
-    background-attachment: fixed;*/
-    background-color: #68768e;
+    background-attachment: fixed;
 
     position: relative;
     z-index: 1;
@@ -82,19 +81,13 @@ body{
 	transform: scale(1.5);
 }
 
-#avatar{
-	border-radius: 50%;
-  width: 25em;
-  height: 25em;
-}
-
 /*Projects section*/
 
 #projects{
     background-color: #393e46;
     display: grid;
     grid-gap: 75px 100px;
-    grid-template-rows: auto 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr auto;
     grid-template-columns: auto auto auto/*1fr 1fr 1fr*/;
     justify-items: center;
     justify-content: center;
@@ -185,4 +178,39 @@ body{
     height: 15em;
   }
 
+
+  #projects{
+    grid-template-collums: 1fr;
+  }
+
+  #project1{
+      grid-row: 1;
+    /*  grid-column: 1;*/
+
+  }
+
+  #project2{
+      grid-row: 2;
+  /*    grid-column: 2;*/
+  }
+
+  #project3{
+      grid-row: 3;
+  /*    grid-column: 3;*/
+  }
+
+  #project4{
+      grid-row: 4;
+    /*  grid-column: 1;*/
+  }
+
+  #project5{
+      grid-row: 5;
+    /*  grid-column: 2;*/
+  }
+
+  #project6{
+      grid-row: 6;
+    /*  grid-column: 3;*/
+  }
 }
