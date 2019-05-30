@@ -21,8 +21,7 @@ $(document).ready(function(){
 
 });
 
-function myFunction() {
-  //alert("yes it is working");
+function responsiveNavBar() {
   var x = document.getElementById("navbar");
   if (x.className === "myNavbar") {
     x.className += " responsive";
