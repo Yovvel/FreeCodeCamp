@@ -88,11 +88,16 @@ body{
     background-color: #00adb5;
     margin-top: -20px;
     display: grid;
+    grid-template-rows: auto auto;
     grid-template-columns:10% 1fr 1fr 1fr 10%;
 }
-
+#about-section h1{
+  font-size: 5em;
+  grid-column: 1 /  6;
+  text-align: center;
+}
 #about-inner-text{
-    padding-top:25%;
+    /*padding-top:25%;*/
     grid-column: 2;
 }
 #about-inner-picture{
@@ -100,9 +105,12 @@ body{
   grid-column: 3;
 }
 #about-inner-picture img{
-  width: 25em;
+  width: 20em;
   height: auto;
+  vertical-align: middle;
   border-radius: 50%;
+
+  border: 1.5px solid black;
 
 }
 /*Projects section*/
