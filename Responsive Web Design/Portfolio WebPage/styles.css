@@ -82,6 +82,29 @@ body{
 	transform: scale(1.5);
 }
 
+/*about section*/
+
+#about-section{
+    background-color: #00adb5;
+    margin-top: -20px;
+    display: grid;
+    grid-template-columns:10% 1fr 1fr 1fr 10%;
+}
+
+#about-inner-text{
+    padding-top:25%;
+    grid-column: 2;
+}
+#about-inner-picture{
+  padding: 25%;
+  grid-column: 3;
+}
+#about-inner-picture img{
+  width: 25em;
+  height: auto;
+  border-radius: 50%;
+
+}
 /*Projects section*/
 
 #projects{
@@ -136,19 +159,6 @@ body{
 
 #project6{
     grid-row: 3;
-    grid-column: 3;
-}
-
-/*about section*/
-#about-section{
-    background-color: #00adb5;
-    margin-top: -20px;
-    display: grid;
-    grid-template-columns:10% 1fr 1fr 10%;
-    grid-template-rows: 10% 1fr 10%;
-}
-#about-inner-text{
-    padding-top:25%;
     grid-column: 3;
 }
 
