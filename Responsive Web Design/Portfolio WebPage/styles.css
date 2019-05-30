@@ -36,7 +36,8 @@ body{
 /*main section*/
 
 #welcome-section{
-    background-image: url(http://yovvel.nl/Image/code-627045246.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0) ), url(http://yovvel.nl/Image/code-627045246.jpg);
+  /*  background-image: url(http://yovvel.nl/Image/code-627045246.jpg);*/
     background-size: cover;
     background-attachment: fixed;
 
