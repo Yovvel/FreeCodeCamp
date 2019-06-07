@@ -3,6 +3,23 @@ body{
     margin:0;
     padding: 0;
 }
+blockquote {
+    margin: 0;
+    font-size: 25px;
+}
+
+blockquote p {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
 
 /*Navigation bar*/
 .myNavbar {
@@ -40,7 +57,6 @@ body{
   /*  background-image: url(http://yovvel.nl/Image/code-627045246.jpg);*/
     background-size: cover;
     background-attachment: fixed;
-
     position: relative;
     z-index: 1;
     text-align: center;
@@ -86,12 +102,12 @@ body{
 
 #about-section{
   color: #222831;
-    background-color: #eeeeee;/*#00adb5;*/
-    margin-top: -20px;
-    display: grid;
-    padding-bottom: 5%;
-    grid-template-rows: auto auto;
-    grid-template-columns:10% 1fr 1fr 1fr 10%;
+  background-color: #eeeeee;/*#00adb5;*/
+  margin-top: -20px;
+  display: grid;
+  padding-bottom: 5%;
+  grid-template-rows: auto auto;
+  grid-template-columns:10% 1fr 1fr 1fr 10%;
 }
 #about-section h1{
   font-size: 5em;
@@ -182,25 +198,37 @@ Projects section
     grid-column: 3;
 }
 /*-----------------------------------------------------------------------------
-About section
+Contact section
 ------------------------------------------------------------------------------*/
 #contact {
-  display: table;
-  margin: 0 auto;
+  background-image: url(https://images.unsplash.com/photo-1517167685284-96a27681ad75?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1834&q=80);
+  background-size: cover;
+  background-attachment: fixed;
+  border-top: 1.8px solid #393e46;
+  margin-top: -45px;
+  text-align: center;
+  color: #eeeeee;
 }
+
+#contact h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4em;
+    /*color: #222831;*/
+    letter-spacing: -0.04em;
+    padding-top: 20px;
+}
+
 #social {
   padding: 40px;
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
 }
+
 #social .fab {
 	margin-left: 10px;
 	margin-right: 10px;
   margin-bottom: 160px;
 	font-size: 75px;
-  color:black;
-  opacity:.8;
+  color: #eeeeee;
+  opacity:.9;
 }
 #social .fab:hover {
   color: #00adb5;
