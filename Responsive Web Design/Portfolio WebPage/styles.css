@@ -123,8 +123,9 @@ body{
   text-decoration: underline;
   color: black;
 }
-
-/*Projects section*/
+/*-----------------------------------------------------------------------------
+Projects section
+------------------------------------------------------------------------------*/
 
 #projects{
     background-color: #393e46;
@@ -179,6 +180,21 @@ body{
 #project6{
     grid-row: 3;
     grid-column: 3;
+}
+/*-----------------------------------------------------------------------------
+About section
+------------------------------------------------------------------------------*/
+#social .fab {
+	margin-left: 10px;
+	margin-right: 10px;
+  margin-bottom: 160px;
+	font-size: 75px;
+  color:black;
+  opacity:.8;
+}
+#social .fab:hover {
+  color: red;
+  opacity:.7;
 }
 
 /*mobile screens etc*/
