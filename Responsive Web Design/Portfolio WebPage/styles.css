@@ -184,6 +184,16 @@ Projects section
 /*-----------------------------------------------------------------------------
 About section
 ------------------------------------------------------------------------------*/
+#contact {
+  display: table;
+  margin: 0 auto;
+}
+#social {
+  padding: 40px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
 #social .fab {
 	margin-left: 10px;
 	margin-right: 10px;
@@ -193,7 +203,7 @@ About section
   opacity:.8;
 }
 #social .fab:hover {
-  color: red;
+  color: #00adb5;
   opacity:.7;
 }
 
