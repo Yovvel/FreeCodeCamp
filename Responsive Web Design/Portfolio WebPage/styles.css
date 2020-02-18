@@ -143,21 +143,21 @@ blockquote p::after {
 /*-----------------------------------------------------------------------------
 Projects section
 ------------------------------------------------------------------------------*/
-
 #projects{
     background-color: #393e46;
     display: grid;
     grid-gap: 75px 100px;
     grid-template-rows: auto 1fr 1fr auto;
-    grid-template-columns: auto auto auto/*1fr 1fr 1fr*/;
-    justify-items: center;
+    grid-template-columns: 10% 1fr 1fr 1fr 10%;
+	justify-items: center;
     justify-content: center;
 }
+
 #projects-header{
     color: #fff;
     grid-row: 1;
-    grid-column-start: 1;
-    grid-column-end: 4;
+	grid-column: 1 /  6;
+	text-align: center;
     text-align: center;
 }
 #projects-header h1{
@@ -170,34 +170,34 @@ Projects section
 
 #project1{
     grid-row: 2;
-    grid-column: 1;
-
+    grid-column: 2;
 }
 
 #project2{
     grid-row: 2;
-    grid-column: 2;
+    grid-column: 3;
 }
 
 #project3{
     grid-row: 2;
-    grid-column: 3;
+    grid-column: 4;
 }
 
 #project4{
     grid-row: 3;
-    grid-column: 1;
+    grid-column: 2;
 }
 
 #project5{
     grid-row: 3;
-    grid-column: 2;
+    grid-column: 3;
 }
 
 #project6{
     grid-row: 3;
-    grid-column: 3;
+    grid-column: 4;
 }
+
 /*-----------------------------------------------------------------------------
 Contact section
 ------------------------------------------------------------------------------*/
