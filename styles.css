@@ -1,0 +1,311 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+    padding: 0;
+}
+blockquote {
+    margin: 0;
+    font-size: 25px;
+}
+
+blockquote p {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+/*Navigation bar*/
+.myNavbar {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #22283104;
+}
+
+.myNavbar:hover{
+    background-color: #222831be;
+}
+.myNavbar a {
+    float: right;
+    display: block;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.myNavbar a.icon {display:none;}
+
+.myNavbar a:hover {
+    color: #00adb5;
+    background-color: #222831;
+}
+
+/*main section*/
+
+#welcome-section{
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0) ), url(http://yovvel.nl/Image/code-627045246.jpg);
+  /*  background-image: url(http://yovvel.nl/Image/code-627045246.jpg);*/
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    height: 100%;
+    color:#fff;
+}
+
+#welcome-inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#welcome-inner h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4.5em;
+    letter-spacing: -0.04em;
+}
+
+#welcome-inner h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5em;
+    margin-top: -1.8em;
+}
+
+#welcome-inner p{
+    font-size: 2em;
+    /*padding-top: 10em;*/
+    position: relative;
+    top: -2,5em;
+}
+
+#arrow{
+    position: relative;
+}
+
+#arrow:hover img{
+	transform: scale(1.5);
+}
+
+/*about section*/
+
+#about-section{
+  color: #222831;
+  background-color: #eeeeee;/*#00adb5;*/
+  /*margin-top: -20px;*/
+  border-top: 2.5px solid #393e46;
+  display: grid;
+  padding-bottom: 5%;
+  grid-template-rows: auto auto;
+  grid-template-columns:10% 1fr 1fr 1fr 10%;
+}
+#about-section h1{
+  font-size: 5em;
+  grid-column: 1 /  6;
+  text-align: center;
+}
+#about-left-text{
+    /*padding-top:25%;*/
+    grid-column: 2;
+}
+#about-inner-picture{
+  display: block;
+  margin:auto;
+  /*padding: 25%;*/
+  grid-column: 3;
+}
+#about-inner-picture img{
+  width: 20em;
+  height: auto;
+  border-radius: 50%;
+  border: 1.8px solid #393e46;
+}
+#about-right-text{
+  /*margin: 0 auto;*/
+  grid-column: 4;
+  padding-left: 25%;
+}
+#about-right-text h2{
+  text-decoration: underline;
+  color: black;
+}
+/*-----------------------------------------------------------------------------
+Projects section
+------------------------------------------------------------------------------*/
+#projects{
+    background-color: #393e46;
+    display: grid;
+    grid-gap: 75px 100px;
+    grid-template-rows: auto 1fr 1fr auto;
+    grid-template-columns: 10% 1fr 1fr 1fr 10%;
+	justify-items: center;
+    justify-content: center;
+}
+#projects h3{
+	text-align: center;
+	text-decoration: underline;
+	color:#fff;
+	margin-bottom: -15px;
+}
+
+#projects p{
+	text-align: center;
+	color:#fff;
+}
+#projects-header{
+    color: #fff;
+    grid-row: 1;
+	grid-column: 1 /  6;
+	text-align: center;
+    text-align: center;
+}
+#projects-header h1{
+    font-size: 3em;
+}
+
+#projects-header p{
+    font-size: 2em;
+}
+
+#project1{
+    grid-row: 2;
+    grid-column: 2;
+}
+
+#project2{
+    grid-row: 2;
+    grid-column: 3;
+}
+
+#project3{
+    grid-row: 2;
+    grid-column: 4;
+}
+
+#project4{
+    grid-row: 3;
+    grid-column: 2;
+}
+
+#project5{
+    grid-row: 3;
+    grid-column: 3;
+}
+
+#project6{
+    grid-row: 3;
+    grid-column: 4;
+}
+
+/*-----------------------------------------------------------------------------
+Contact section
+------------------------------------------------------------------------------*/
+#contact {
+  background-image: url(https://images.unsplash.com/photo-1517167685284-96a27681ad75?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1834&q=80);
+  background-size: cover;
+  background-attachment: fixed;
+  border-top: 2.5px solid #393e46;
+  margin-top: -45px;
+  text-align: center;
+  color: #eeeeee;
+}
+
+#contact h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4em;
+    /*color: #222831;*/
+    letter-spacing: -0.04em;
+    padding-top: 20px;
+}
+
+#social {
+  padding: 40px;
+}
+
+#social .fab {
+	margin-left: 10px;
+	margin-right: 10px;
+  margin-bottom: 160px;
+	font-size: 75px;
+  color: #eeeeee;
+  opacity:.9;
+}
+#social .fab:hover {
+  color: #00adb5;
+  opacity:.7;
+}
+
+/*mobile screens etc*/
+
+@media only screen and (max-width: 600px) {
+  .myNavbar a {display: none;}
+  .myNavbar a.icon {
+    float: right;
+    display: block;
+  }
+
+  .myNavbar .responsive {position: relative;}
+  .myNavbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .myNavbar.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  #avatar{
+  	border-radius: 50%;
+    width: 15em;
+    height: 15em;
+  }
+
+
+  #projects{
+    grid-template-collums: 1fr;
+  }
+
+  #project1{
+      grid-row: 1;
+    /*  grid-column: 1;*/
+
+  }
+
+  #project2{
+      grid-row: 2;
+  /*    grid-column: 2;*/
+  }
+
+  #project3{
+      grid-row: 3;
+  /*    grid-column: 3;*/
+  }
+
+  #project4{
+      grid-row: 4;
+    /*  grid-column: 1;*/
+  }
+
+  #project5{
+      grid-row: 5;
+    /*  grid-column: 2;*/
+  }
+
+  #project6{
+      grid-row: 6;
+    /*  grid-column: 3;*/
+  }
+}
