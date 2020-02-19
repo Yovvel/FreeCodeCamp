@@ -152,7 +152,17 @@ Projects section
 	justify-items: center;
     justify-content: center;
 }
+#projects h3{
+	text-align: center;
+	text-decoration: underline;
+	color:#fff;
+	margin-bottom: -15px;
+}
 
+#projects p{
+	text-align: center;
+	color:#fff;
+}
 #projects-header{
     color: #fff;
     grid-row: 1;
