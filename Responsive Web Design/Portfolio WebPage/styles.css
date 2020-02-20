@@ -109,12 +109,12 @@ blockquote p::after {
 	padding-bottom: 5%;
 	display: grid;
 	grid-template-rows: auto auto auto auto;
-	grid-template-columns:10% 1fr 1fr 10%;	
+	grid-template-columns:10% 1fr 1fr 10%;
 }
 #skills-section h1{
 	font-size: 5em;
 	text-align: center;
-	grid-column:1 / 5;	
+	grid-column:1 / 5;
 }
 
 /*about section*/
@@ -164,30 +164,30 @@ Projects section
 ------------------------------------------------------------------------------*/
 #projects{
     background-color: #393e46;
+    color:#fff;
     display: grid;
     grid-gap: 75px 100px;
     grid-template-rows: auto 1fr 1fr auto;
     grid-template-columns: 10% 1fr 1fr 1fr 10%;
-	justify-items: center;
+	  justify-items: center;
     justify-content: center;
+    text-align: center;
 }
 #projects h3{
-	text-align: center;
 	text-decoration: underline;
 	color:#fff;
 	margin-bottom: -15px;
 }
 
 #projects p{
-	text-align: center;
-	color:#fff;
+	/* !Todo: lijkt erop dat deze niet langer meer nodig is*/
 }
 #projects-header{
     color: #fff;
     grid-row: 1;
 	grid-column: 1 /  6;
 	text-align: center;
-    text-align: center;
+
 }
 #projects-header h1{
     font-size: 3em;
