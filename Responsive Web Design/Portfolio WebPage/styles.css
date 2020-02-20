@@ -179,9 +179,7 @@ Projects section
 	margin-bottom: -15px;
 }
 
-#projects p{
-	/* !Todo: lijkt erop dat deze niet langer meer nodig is*/
-}
+
 #projects-header{
     color: #fff;
     grid-row: 1;
@@ -294,7 +292,7 @@ Contact section
 
 
   #projects{
-    grid-template-collums: 1fr;
+    grid-template-columns:1fr;
   }
 
   #project1{
