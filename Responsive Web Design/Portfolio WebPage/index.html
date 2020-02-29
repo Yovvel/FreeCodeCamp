@@ -1,69 +1,66 @@
 <html>
-    <head>
+  <head>
 	<!-- !todo: Update Font awesom to version 5, it has more icons, needed for this project -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		  <script src="script.js"></script>
-      <link rel="stylesheet" href="styles.css">
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
-		  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	  <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </head>
 
-    <body>
-
-        <nav id="navbar" class="myNavbar">
-          <a href="#welcome-section" rel="internal">Welcome</a>
-          <a href="#about-section" rel="internal">About</a>
-          <a href="#projects" rel="internal">Projects</a>
-          <a href="#contact" rel="internal">Contact</a>
-          <a href="javascript:void(0);" class="icon" onclick="responsiveNavBar()">
-            <i class="fa fa-bars"></i>
+  <body>
+    <nav id="navbar" class="myNavbar">
+        <a href="#welcome-section" rel="internal">Welcome</a>
+        <a href="#about-section" rel="internal">About</a>
+        <a href="#projects" rel="internal">Projects</a>
+        <a href="#contact" rel="internal">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="responsiveNavBar()">
+        <i class="fa fa-bars"></i>
           </a>
         </nav>
 
-        <main>
-            <div id="welcome-section">
+    <main>
+<!-- Welcome section -->
+      <div id="welcome-section">
 			<!-- Todo: voeg kleurenschema toe van andere site -->
-              <div id="welcome-inner">
-                <h1>Ik ben een web developer</h1>
-                <p>Ik bouw voor jou een persoonlijke website!</p>
-                <a href="#projects" id="arrow"><img src="http://yovvel.nl/Image/arrow-down.png" alt=""></a>
-              </div> <!--Welcome-inner-->
-            </div> <!--welcome-section-->
+        <div id="welcome-inner">
+          <h1>Ik ben een web developer</h1>
+          <p>Ik bouw voor jou een persoonlijke website!</p>
+          <a href="#projects" id="arrow"><img src="http://yovvel.nl/Image/arrow-down.png" alt=""></a>
+        </div> <!--Welcome-inner-->
+      </div> <!--welcome-section-->
 
-            <div id="about-section">
-              <h1>Over mij</h1>
-              <div id="about-left-text">
-                  <p>Hartelijk dank voor uw tijd om een kijkje te nemen op mijn portfolio site.</p>
-                  <p>Ik ben een web developer, alles zelf aangeleerd</p>
-                  <p>Ab excepteur exquisitaque, ipsum ad incididunt e malis, quid te nostrud, o
-                    consequat ita ingeniis. Incididunt nulla consequat, an sunt noster eu excepteur.
-                    Cernantur duis hic iudicem exercitation.Quamquam cillum constias nescius te est
-                    laborum praesentibus. O aliqua malis de singulis, sed noster ad veniam quo ea id
-                    sunt quorum export, ita nisi te quae. Ab illum constias firmissimum, ubi fore in
-                    eram.</p>
+<!-- About section -->
+      <div id="about-section">
+        <h1>Over mij</h1>
+        <div id="about-left-text">
+          <p>Hartelijk dank voor uw tijd om een kijkje te nemen op mijn portfolio site.</p>
+          <p>Ik ben een web developer, alles zelf aangeleerd</p>
+          <p>Ab excepteur exquisitaque, ipsum ad incididunt e malis, quid te nostrud, o consequat ita ingeniis. Incididunt nulla consequat, an sunt noster eu excepteur.
+            Cernantur duis hic iudicem exercitation.Quamquam cillum constias nescius te est laborum praesentibus. O aliqua malis de singulis, sed noster ad veniam quo
+            ea id sunt quorum export, ita nisi te quae. Ab illum constias firmissimum, ubi fore in eram.</p>
+        </div> <!--about-left-text-->
+        <div id="about-inner-picture">
+          <img src="http://yovvel.nl/Image/profilePic.jpg" alt="">
+        </div><!--about-inner-picture-->
+        <div id="about-right-text">
+          <h2>Naam:</h2>
+          <p>Joffrey Nolting</p>
+          <h2>leeftijd:</h2>
+          <p>30 jaar</p>
+          <h2>Locatie:</h2>
+          <p>Wolvega, Nederland.</p>
+        </div><!--about-right-text-->
+      </div> <!--about-section-->
 
-              </div> <!--about-left-text-->
-              <div id="about-inner-picture">
-                  <img src="http://yovvel.nl/Image/profilePic.jpg" alt="">
-              </div><!--about-inner-picture-->
-              <div id="about-right-text">
-                  <h2>Naam:</h2>
-                  <p>Joffrey Nolting</p>
-                  <h2>leeftijd:</h2>
-                  <p>30 jaar</p>
-                  <h2>Locatie:</h2>
-                  <p>Wolvega, Nederland.</p>
-              </div><!--about-right-text-->
-            </div> <!--about-section-->
-
-            <div id="projects">
-                <div id="projects-header">
-                    <h1>Projecten</h1>
-                    <p>Een greep van mijn werk.</p>
-                </div>
-				
-				<div id = "projects-grid">
+<!-- Projects section -->
+      <div id="projects">
+        <div id="projects-header">
+          <h1>Projecten</h1>
+          <p>Een greep van mijn werk.</p>
+        </div>
+			  <div id = "projects-grid">
 					<div id="project1" class="project-tile">
 						<a href="project1.html"><img src="https://via.placeholder.com/200" alt="project 1"></a>
 						<h3>Project 1</h3>
@@ -95,25 +92,25 @@
 						<p>Lorem ipsum nada ima kadraba huppela</p>
 					</div>
 				</div><!--projects-grid-->
-            </div> <!--projects-section-->
+      </div> <!--projects-section-->
 
+<!-- Contact section -->
 			<div id="contact">
-              <h1 align="center">Kom in contact</h1>
-              <blockquote cite="http://">
-                <p>The meeting of two personalities is like the contact of two chemical substances: if there is any reaction, bot are transformed. <footer>-Carl Yung</footer> </p>
-              </blockquote>
+        <h1 align="center">Kom in contact</h1>
+        <blockquote cite="http://">
+          <p>The meeting of two personalities is like the contact of two chemical substances: if there is any reaction, bot are transformed. <footer>-Carl Yung</footer> </p>
+        </blockquote>
+        <p id="social">
+          <a href="https://github.com/Yovvel"><i title="GitHub" class="fab fa-github-square"></i></a>
+          <a href="https://nl.linkedin.com/in/joffreynolting"><i title="Linkedin" class="fab fa-linkedin"></i></a>
+          <a href="codepen.io/Yovvel"><i title="CodePen" class="fab fa-codepen"></i></a>
+          <a href="https://www.facebook.com/joffrey.nolting"><i title="Facebook" class="fab fa-facebook"></i></a>
+          <a href="https://www.flickr.com/people/yovvel/"><i title="Flickr" class="fab fa-flickr"></i></a>
+        </p>
+      </div><!--contact section-->
 
-              <p id="social">
-                <a href="https://github.com/Yovvel"><i title="GitHub" class="fab fa-github-square"></i></a>
-                <a href="https://nl.linkedin.com/in/joffreynolting"><i title="Linkedin" class="fab fa-linkedin"></i></a>
-                <a href="codepen.io/Yovvel"><i title="CodePen" class="fab fa-codepen"></i></a>
-                <a href="https://www.facebook.com/joffrey.nolting"><i title="Facebook" class="fab fa-facebook"></i></a>
-                <a href="https://www.flickr.com/people/yovvel/"><i title="Flickr" class="fab fa-flickr"></i></a>
-              </p>
-            </div><!--contact section-->
-
-        </main>
-    </body>
+    </main>
+  </body>
 
 </html>
 
