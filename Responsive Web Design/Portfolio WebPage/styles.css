@@ -249,77 +249,123 @@ Contact section
   opacity:.7;
 }
 
-/*mobile screens etc*/
 
-@media only screen and (max-width: 600px) {
-  .myNavbar a {display: none;}
-  .myNavbar a.icon {
-    float: right;
-    display: block;
+  /*tablet screen*/
+@media only screen and (max-width: 850px) {
+    #projects-grid{
+      padding: 4rem 2rem;
+      display: grid;
+      align-items: center;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-columns: auto 1fr 1fr auto;
+      grid-gap: 1fr;
+
+    }
+
+    #project1{
+        grid-row: 1;
+        grid-column: 2;
+        padding: 2rem;
+    }
+
+    #project2{
+        grid-row: 1;
+        grid-column: 3;
+        padding: 2rem;
+    }
+
+    #project3{
+        grid-row: 2;
+        grid-column: 2;
+        padding: 2rem;
+    }
+
+    #project4{
+        grid-row: 2;
+        grid-column: 3;
+        padding: 2rem;
+    }
+
+    #project5{
+        grid-row: 3;
+        grid-column: 2;
+        padding: 2rem;
+    }
+
+    #project6{
+        grid-row: 3;
+        grid-column: 3;
+        padding: 2rem;
+    }
   }
 
-  .myNavbar .responsive {position: relative;}
-  .myNavbar.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .myNavbar.responsive a {
-    float: none;
-    display: block;
-    text-align: center;
-  }
+  /*Phone screen*/
+  @media only screen and (max-width: 600px) {
+    .myNavbar a {display: none;}
+    .myNavbar a.icon {
+      float: right;
+      display: block;
+    }
 
-  #avatar{
-  	border-radius: 50%;
-    width: 15em;
-    height: 15em;
+    .myNavbar .responsive {position: relative;}
+    .myNavbar.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .myNavbar.responsive a {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+
+    #avatar{
+    	border-radius: 50%;
+      width: 15em;
+      height: 15em;
+    }
+    #projects-grid{
+      padding: 4rem 2rem;
+      display: grid;
+      align-items: center;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: auto 1fr auto;
+      grid-gap: 1fr;
+    }
+
+    #project1{
+        grid-row: 1;
+        grid-column: 2;
+        padding: 2rem;
+    }
+
+    #project2{
+        grid-row: 2;
+        grid-column: 2;
+        padding: 2rem;
+    }
+
+    #project3{
+        grid-row: 3;
+        grid-column: 2;
+        padding: 2rem;
+    }
+
+    #project4{
+        grid-row: 4;
+        grid-column: 2;
+        padding: 2rem;
+    }
+
+    #project5{
+        grid-row: 5;
+        grid-column: 2;
+        padding: 2rem;
+    }
+
+    #project6{
+        grid-row: 6;
+        grid-column: 2;
+        padding: 2rem;
+    }
   }
-
-
-  #projects-grid{
-  	padding: 4rem 2rem;
-  	display: grid;
-  	align-items: center;
-    grid-template-rows: 1fr 1fr 1fr;
-  	grid-template-columns: auto 1fr 1fr auto;
-  	grid-gap: 1fr;
-
-  }
-
-  #project1{
-      grid-row: 1;
-      grid-column: 2;
-      padding: 2rem;
-  }
-
-  #project2{
-      grid-row: 1;
-      grid-column: 3;
-      padding: 2rem;
-  }
-
-  #project3{
-      grid-row: 2;
-      grid-column: 2;
-      padding: 2rem;
-  }
-
-  #project4{
-      grid-row: 2;
-      grid-column: 3;
-      padding: 2rem;
-  }
-
-  #project5{
-      grid-row: 3;
-      grid-column: 2;
-      padding: 2rem;
-  }
-
-  #project6{
-      grid-row: 3;
-      grid-column: 3;
-      padding: 2rem;
-  }
-}
