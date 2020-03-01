@@ -252,52 +252,84 @@ Contact section
 
   /*tablet screen*/
 @media only screen and (max-width: 850px) {
-    #projects-grid{
-      padding: 4rem 2rem;
-      display: grid;
-      align-items: center;
-      grid-template-rows: 1fr 1fr 1fr;
-      grid-template-columns: auto 1fr 1fr auto;
-      grid-gap: 1fr;
-
-    }
-
-    #project1{
-        grid-row: 1;
-        grid-column: 2;
-        padding: 2rem;
-    }
-
-    #project2{
-        grid-row: 1;
-        grid-column: 3;
-        padding: 2rem;
-    }
-
-    #project3{
-        grid-row: 2;
-        grid-column: 2;
-        padding: 2rem;
-    }
-
-    #project4{
-        grid-row: 2;
-        grid-column: 3;
-        padding: 2rem;
-    }
-
-    #project5{
-        grid-row: 3;
-        grid-column: 2;
-        padding: 2rem;
-    }
-
-    #project6{
-        grid-row: 3;
-        grid-column: 3;
-        padding: 2rem;
-    }
+  #about-section{
+    margin-top: -20px;
+    border-top: 2.5px solid #393e46;
+    display: grid;
+    padding: 15 em;
+    text-align: center;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns:10% 1fr 10%;
   }
+  #about-section h1{
+    font-size: 5em;
+    grid-column: 1 /  5;
+    text-align: center;
+  }
+  #about-left-text{
+      grid-column: 2;
+  }
+  #about-inner-picture{
+    display: block;
+    margin:auto;
+    grid-column: 2;
+  }
+
+  #about-right-text{
+    grid-column: 2;
+
+  }
+  #about-right-text h2{
+    text-decoration: underline;
+    color: black;
+  }
+
+  #projects-grid{
+    padding: 4rem 2rem;
+    display: grid;
+    align-items: center;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: auto 1fr 1fr auto;
+    grid-gap: 1fr;
+
+  }
+
+  #project1{
+      grid-row: 1;
+      grid-column: 2;
+      padding: 2rem;
+  }
+
+  #project2{
+      grid-row: 1;
+      grid-column: 3;
+      padding: 2rem;
+  }
+
+  #project3{
+      grid-row: 2;
+      grid-column: 2;
+      padding: 2rem;
+  }
+
+  #project4{
+      grid-row: 2;
+      grid-column: 3;
+      padding: 2rem;
+  }
+
+  #project5{
+      grid-row: 3;
+      grid-column: 2;
+      padding: 2rem;
+  }
+
+  #project6{
+      grid-row: 3;
+      grid-column: 3;
+      padding: 2rem;
+  }
+}
 
   /*Phone screen*/
   @media only screen and (max-width: 600px) {
